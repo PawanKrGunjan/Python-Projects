@@ -5,7 +5,7 @@ n2 = int(input("Enter the second number: "))
 l=[]
 for i in range(n1,n2):
     l.append(i)
-print(l)
+#print(l)
 
 #Canvert the type of each element of the list to string
 L=[]
@@ -14,19 +14,21 @@ for j in l:
 
 #L = [str(x) for x in l]
 #L = list(map(str, l))
-print(L)
+#print(L)
 
 # Remove the element having same digits like 11, 22, 33....
-List=[]
+s= set()
 for x in L:
     i=0
-    while i != len(x):
+    for i in range(len(x)):
         if x[i] == x[0]:
            pass
         else:
-            List.append(x)
-        i=i+1
+            s.add(x)
+       
+       
 #ReConvert the each element of output 
-Output = list(map(int, List))
-print(Output)
+print(s)
+Output = set(map(int, s))
+print(list(Output))
 
