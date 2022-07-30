@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Minion Game", "Minion Game\Minion Game.pyproj", "{EBCA2099-C88E-4B6C-93E3-19EE49254F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCA2099-C88E-4B6C-93E3-19EE49254F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCA2099-C88E-4B6C-93E3-19EE49254F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77BC4B7E-15AB-49B4-BD93-ADB4445AE26F}
+	EndGlobalSection
+EndGlobal
